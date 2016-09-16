@@ -59,6 +59,4 @@ class VersionedSerializableClass( object ):
     def _serialize_to_file( self, f ):
         pickle.dump(self, f)
 
-    @classmethod
-    def _deserialize_from_file( cls, f ):
-         return pickle.load(f)
+    
