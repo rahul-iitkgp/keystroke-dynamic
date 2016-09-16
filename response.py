@@ -52,3 +52,5 @@ if __name__=='__main__':
         match_fingerprint()
     else:
         print "Bad option"
+
+
